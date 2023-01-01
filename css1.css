@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-container>img{
+    height: 150px;
+    width: 100px;
+    
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(5,100px);
+    gap: 20px;
+}
+.card1{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+   
+}
+body{
+    margin: 20px;
+}
+.card01>img{
+    height: 600px;
+    width: 500px;
+}
+.heading{
+    font-size: 35px;
+}
+.sub,.rs,.des,.pdt{
+    color: rgb(97, 97, 97);
+    font-size: 20px;
+}
+.text{
+    color: rgba(88, 88, 112, .8);
+}
+.img-container>img:hover{
+    cursor: pointer;
+}
